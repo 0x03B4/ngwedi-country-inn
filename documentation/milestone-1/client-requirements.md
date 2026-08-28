@@ -1,4 +1,4 @@
-# 1. Client Requirements
+# Client Requirements
 
 
 Ngwedi Country Inn (Kimberley) is a small hospitality organization that offers accommodation services, it is far smaller than large scale hotels. As a small property, the inn operates with tighter operational and IT budgets, which includes limited and costly internet bandwidth. The client has also indicated plans for a future branch office, meaning the network and addressing scheme must be designed with scalability in mind, even though the second site is not being built as part of this project.
