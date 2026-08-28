@@ -1,5 +1,19 @@
+# IP Addressing
 
-# IP Addressing| /27 | 32 | 10.27.0.64 - 10.27.0.95 | 30 |
+
+## Addressing Approach
+
+The client was assigned the address block 10.27.0.0/16, this provides 65 536 addresses. Rather than dividing this block into equally-sized subnets for every zone, Variable Length Subnet Masking (VLSM) was used to size each subnet according to its actual estimated device count as established in Section 1. This approach directly supports the client’s constraints that internet bandwidth is limited and expensive, and that the design must minimize waste, allocating a uniform subnet size would have wasted hundreds of unused addresses per zone, especially for small functions such as HR, Finance and IT.
+
+This addressing plan also accounts for CR6, the client’s planned branch office. Since only a small portion of the total 10.27.0.0/16 block is used by the current zones, the majority of the address space remains unallocated and available for future use, which means the addressing scheme can accommodate the branch office without requiring a redesign of the existing network.
+
+
+## Subnet Allocation
+
+| Zone | Prefix | Block Size | Range | Usable |
+|---|---|---|---|---|
+| Guest Wifi | /26 | 64 | 10.27.0.0 - 10.27.0.63 | 62 |
+| General Staff | /27 | 32 | 10.27.0.64 - 10.27.0.95 | 30 |
 | Front Desk | /28 | 16 | 10.27.0.96 - 10.27.0.111 | 14 |
 | HR / Admin | /28 | 16 | 10.27.0.112 - 10.27.0.127 | 14 |
 | Finance | /28 | 16 | 10.27.0.128 - 10.27.0.143 | 14 |
