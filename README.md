@@ -10,7 +10,7 @@ Industry: Hospitality<br>
 
 #### Milestone 1
 - [Client Requirements](documentation/milestone-1/client-requirements.md)
+- [IP Addressing](documentation/milestone-1/ip-addressing.md)
 - [Physical Topology](documentation/milestone-1/physical-topology.md)
 - [Logical Topology](documentation/milestone-1/logical-topology.md)
-- [IP Addressing](documentation/milestone-1/ip-addressing.md)
 
