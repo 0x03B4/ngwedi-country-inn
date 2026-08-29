@@ -21,12 +21,12 @@ Inter-VLAN routing is implemented using router-on-a-stick, which is a single phy
 
 ## Traffic Flow Rules
 
-Guest Wifi is fully isolated, it can only access internet and no other VLAN.
-General Staff is isolated from Finance, HR and Front Desk, it access internet only.
-Front Desk can access Finance and Finance can access Front Desk.
-Front Desk can access HR and HR can access Front Desk
-HR can access Finance and Finance can access HR.
-IT/Management has administrative access to all VLANs, for configuration, Monitoring and security purposes.
+1. Guest Wifi is fully isolated, it can only access internet and no other VLAN.
+2. General Staff is isolated from Finance, HR and Front Desk, it access internet only.
+3. Front Desk can access Finance and Finance can access Front Desk.
+4. Front Desk can access HR and HR can access Front Desk
+5. HR can access Finance and Finance can access HR.
+6. IT/Management has administrative access to all VLANs, for configuration, Monitoring and security purposes.
 
 These rules are enforced on the router using access control lists (ACLs) applied per sub-interface, restricting inter-VLAN traffic to only the permitted paths.
 
