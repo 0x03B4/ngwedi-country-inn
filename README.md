@@ -42,4 +42,4 @@ Industry: Hospitality<br>
 <br>
 <br>
 
-[Editable Topology Source (.drawio)](topologies/Physical-and-Logical-Topologies.drawio)
+[Physical and Logical Topology Source (.drawio)](topologies/Physical-and-Logical-Topologies.drawio)
