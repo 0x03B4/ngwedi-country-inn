@@ -14,3 +14,9 @@ Industry: Hospitality<br>
 - [Physical Topology](documentation/milestone-1/physical-topology.md)
 - [Logical Topology](documentation/milestone-1/logical-topology.md)
 
+
+#### Milestone 2
+- [Design Revisions](documentation/milestone-2/design-revision.md)
+- [Implementation Summary](documentation/milestone-2/implementation.md)
+- [Testing Evidence](documentation/milestone-2/testing.md)
+
