@@ -41,6 +41,17 @@ Industry: Hospitality<br>
     - [Ping Test - Finance](screenshots/ping-tests/finance.png)
     - [Ping Test - IT / Management](screenshots/ping-tests/it-management.png)
 
+#### Final Submission
+- [Additional Testing](documentation/final-submission/additional-testing.md)
+- Screenshots:
+  - Network Configuration:
+    - [Access Control Lists After Isolation Tests](screenshots/final-submission/access-lists-after-isolation-tests.png)
+
+  - Connectivity testing:
+    - [Ping Test - Front Desk to Guest Wifi and General Staff](screenshots/final-submission/front-desk-to-guest-staff.png)
+    - [Ping Test - HR / Admin to Guest Wifi and General Staff](screenshots/final-submission/hr-to-guest-staff.png)
+    - [Ping Test - Finance to Guest Wifi and General Staff](screenshots/final-submission/finance-to-guest-staff.png)
+
 <br>
 <br>
 
