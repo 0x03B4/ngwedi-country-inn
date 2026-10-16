@@ -44,7 +44,7 @@ Industry: Hospitality<br>
 #### Final Submission
 - [Additional Testing](documentation/final-submission/additional-testing.md)
 - Screenshots:
-  - Network Isolation & Security:
+  - Network Isolation and Security:
     - [Access Control Lists After Isolation Tests](screenshots/final-submission/access-lists-after-isolation-tests.png)
     - [Ping Test - Front Desk to Guest Wifi and General Staff](screenshots/final-submission/front-desk-to-guest-staff.png)
     - [Ping Test - HR / Admin to Guest Wifi and General Staff](screenshots/final-submission/hr-to-guest-staff.png)
@@ -55,7 +55,7 @@ Industry: Hospitality<br>
   - NAT Verification:
     - [NAT Configuration](screenshots/final-submission/nat-config.png)
     - [NAT Verification Test](screenshots/final-submission/nat-verification.png)
-  - EtherChannel Redundancy & Failover:
+  - EtherChannel Redundancy and Failover:
     - [EtherChannel Failover - Link Down](screenshots/final-submission/etherchannel-failover-down.png)
     - [EtherChannel Failover - Link Restored](screenshots/final-submission/etherchannel-failover-restored.png)
 
